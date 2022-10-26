@@ -2,7 +2,7 @@ To create SSH key We can either use RSA or id_25519 Encryption but rsa is safe
 
 Create SSH key using rsa
 
-ssh-key-gen -t rsa -b 4096 -C "lohiyalavarthi95@gmail.com"
+ssh-key-gen -t rsa -b 4096 -C "email address"
 
 Now the key generated we need to let ssh agent know about our key and store it to this
 
